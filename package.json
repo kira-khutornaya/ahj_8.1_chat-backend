@@ -1,0 +1,29 @@
+{
+  "name": "ahj_8.1_chat-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kira-khutornaya/ahj_8.1_chat-backend.git",
+  "author": "Kira Khutornaya <kira.khutornaya@mail.ru>",
+  "license": "MIT",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "forever": "^4.0.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa2-cors": "^2.0.6",
+    "uuid": "^8.3.2",
+    "ws": "^7.5.3"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
