@@ -6,6 +6,7 @@
   "author": "Kira Khutornaya <kira.khutornaya@mail.ru>",
   "license": "MIT",
   "scripts": {
+    "prestart": "yarn",
     "start": "forever server.js",
     "watch": "forever -w server.js",
     "lint": "eslint ."
